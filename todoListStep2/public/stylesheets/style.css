@@ -6,3 +6,30 @@ body {
 a {
   color: #00B7FF;
 }
+
+.commonheader{
+  background-color : #C0EEFF ;
+}
+
+#headerBox{
+}
+
+#commonheader{
+  text-align:center;
+  height:170px;
+  width:60%;
+  float: left; 
+}
+
+#serchicon{
+  text-align:right;
+  height:40px;
+  padding-top:130px;
+  width:40%;
+  float: right; 
+}
+
+#nullhead{
+  clear:both;
+   border-bottom: 3px solid #000000;
+}
