@@ -11,6 +11,13 @@ a {
   background-color : #C0EEFF ;
 }
 
+.todoList{
+  border: 5px outset #000000;
+  border-radius:10px; 
+  padding: 10px;
+  margin-bottom:20px;
+}
+
 #headerBox{
 }
 

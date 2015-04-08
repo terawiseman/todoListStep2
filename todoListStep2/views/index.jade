@@ -6,17 +6,15 @@ block content
   .form
     form#form
       p
-        label(for='text') 内容
-        input#text(type='text',name='text')
-      p
-        label(for='limit') 期限
-        input#limit(type='date',name='limit')
-      p
+        label(for='name') リスト名称
+        input#name(type='text',name='name',size="40",maxlength="20")
+      p  
         input(type='submit',value='登録する')
+        
   // ToDo一覧を表示する
-  .lists
+  .list
 
 // jQueryとtodoInput.jsを読み込む
 block scripts
   script(src='http://code.jquery.com/jquery-2.0.0.min.js')
-  script(src='javascripts/todoInput.js')
+  script(src='javascripts/index.js')

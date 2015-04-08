@@ -1,0 +1,23 @@
+﻿extends layout
+
+block content
+  //task入力フォームを作成する
+  h1= title
+  .task
+    form#task
+      p
+        label(for='text') タスクの内容
+        input#text(type='text',name='text',size="40",maxlength="20")
+      p
+        label(for='limit') 期限
+        input#limit(type='date',name='limit')
+      p
+        input(type='submit',value='追加する')
+        
+  // ToDo一覧を表示する
+  .list
+
+// jQueryとtodoInput.jsを読み込む
+block scripts
+  script(src='http://code.jquery.com/jquery-2.0.0.min.js')
+  script(src='/javascripts/todo.js')
